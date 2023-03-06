@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArrayOfCityEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<CityEvent>
+	<Header>Визуальное программирование</Header>
+	<Description>Учим язык C#, графические нотации, используемые при проектировании ПО и принципы Solid </Description>
+	<Image>../../../Assets/antonv.png</Image>
+	<Date>09.03.2023</Date>
+	<Category>Образование</Category>
+	<Price>322 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Визуальное программирование</Header>
+	<Description>Учим язык C#, графические нотации, используемые при проектировании ПО и принципы Solid </Description>
+	<Image>../../../Assets/antonv.png</Image>
+	<Date>09.03.2023</Date>
+	<Category>Образование</Category>
+	<Price>322 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Визуальное программирование</Header>
+	<Description>Учим язык C#, графические нотации, используемые при проектировании ПО и принципы Solid </Description>
+	<Image>../../../Assets/antonv.png</Image>
+	<Date>09.03.2023</Date>
+	<Category>Образование</Category>
+	<Price>322 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Визуальное программирование</Header>
+	<Description>Учим язык C#, графические нотации, используемые при проектировании ПО и принципы Solid </Description>
+	<Image>../../../Assets/antonv.png</Image>
+	<Date>09.03.2023</Date>
+	<Category>Образование</Category>
+	<Price>322 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Программа для изучения химических элементов у дошкольников</Header>
+	<Description>...</Description>
+	<Image>../../../Assets/deti.png</Image>
+	<Date>09.03.2023</Date>
+	<Category>Для детей</Category>
+	<Price>1000 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Программа для изучения химических элементов у дошкольников</Header>
+	<Description>...</Description>
+	<Image>../../../Assets/deti.png</Image>
+	<Date>09.03.2023</Date>
+	<Category>Для детей</Category>
+	<Price>1000 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Программа для изучения химических элементов у дошкольников</Header>
+	<Description>...</Description>
+	<Image>../../../Assets/deti.png</Image>
+	<Date>09.03.2023</Date>
+	<Category>Для детей</Category>
+	<Price>1000 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Программа для изучения химических элементов у дошкольников</Header>
+	<Description>...</Description>
+	<Image>../../../Assets/deti.png</Image>
+	<Date>09.03.2023</Date>
+	<Category>Для детей</Category>
+	<Price>1000 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Воллейбол</Header>
+	<Description>«КУЗБАСС» ОБЫГРАЛ «ЛОКОМОТИВ» И С ПЕРВОГО МЕСТА ВЫШЕЛ В ПОЛУФИНАЛ ЧЕМПИОНАТА РОССИИ</Description>
+	<Image>../../../Assets/voleyball.png</Image>
+	<Date>11.03.2023</Date>
+	<Category>Спорт</Category>
+	<Price>600 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Воллейбол</Header>
+	<Description>«КУЗБАСС» ОБЫГРАЛ «ЛОКОМОТИВ» И С ПЕРВОГО МЕСТА ВЫШЕЛ В ПОЛУФИНАЛ ЧЕМПИОНАТА РОССИИ</Description>
+	<Image>../../../Assets/voleyball.png</Image>
+	<Date>11.03.2023</Date>
+	<Category>Спорт</Category>
+	<Price>600 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Воллейбол</Header>
+	<Description>«КУЗБАСС» ОБЫГРАЛ «ЛОКОМОТИВ» И С ПЕРВОГО МЕСТА ВЫШЕЛ В ПОЛУФИНАЛ ЧЕМПИОНАТА РОССИИ</Description>
+	<Image>../../../Assets/voleyball.png</Image>
+	<Date>11.03.2023</Date>
+	<Category>Спорт</Category>
+	<Price>600 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Воллейбол</Header>
+	<Description>«КУЗБАСС» ОБЫГРАЛ «ЛОКОМОТИВ» И С ПЕРВОГО МЕСТА ВЫШЕЛ В ПОЛУФИНАЛ ЧЕМПИОНАТА РОССИИ</Description>
+	<Image>../../../Assets/voleyball.png</Image>
+	<Date>11.03.2023</Date>
+	<Category>Спорт</Category>
+	<Price>600 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Балет Щелкунчик</Header>
+	<Description>Новосибирский театр оперы и балета – крупнейший музыкальный театр России </Description>
+	<Image>../../../Assets/kultura.png</Image>
+	<Date>12.03.2023</Date>
+	<Category>Культура</Category>
+	<Price>от 1000 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Балет Щелкунчик</Header>
+	<Description>Новосибирский театр оперы и балета – крупнейший музыкальный театр России </Description>
+	<Image>../../../Assets/kultura.png</Image>
+	<Date>12.03.2023</Date>
+	<Category>Культура</Category>
+	<Price>от 1000 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Балет Щелкунчик</Header>
+	<Description>Новосибирский театр оперы и балета – крупнейший музыкальный театр России </Description>
+	<Image>../../../Assets/kultura.png</Image>
+	<Date>12.03.2023</Date>
+	<Category>Культура</Category>
+	<Price>от 1000 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Балет Щелкунчик</Header>
+	<Description>Новосибирский театр оперы и балета – крупнейший музыкальный театр России </Description>
+	<Image>../../../Assets/kultura.png</Image>
+	<Date>12.03.2023</Date>
+	<Category>Культура</Category>
+	<Price>от 1000 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Воин Освободитель</Header>
+	<Description>Мемориал Воину-Освободителю открыли в Кемерово, он является точной копией скульптуры в Берлине</Description>
+	<Image>../../../Assets/voin.png</Image>
+	<Date>14.03.2023</Date>
+	<Category>Экскурсии</Category>
+	<Price>от 1000 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Воин Освободитель</Header>
+	<Description>Мемориал Воину-Освободителю открыли в Кемерово, он является точной копией скульптуры в Берлине</Description>
+	<Image>../../../Assets/voin.png</Image>
+	<Date>14.03.2023</Date>
+	<Category>Экскурсии</Category>
+	<Price>от 1000 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Воин Освободитель</Header>
+	<Description>Мемориал Воину-Освободителю открыли в Кемерово, он является точной копией скульптуры в Берлине</Description>
+	<Image>../../../Assets/voin.png</Image>
+	<Date>14.03.2023</Date>
+	<Category>Экскурсии</Category>
+	<Price>от 1000 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Воин Освободитель</Header>
+	<Description>Мемориал Воину-Освободителю открыли в Кемерово, он является точной копией скульптуры в Берлине</Description>
+	<Image>../../../Assets/voin.png</Image>
+	<Date>14.03.2023</Date>
+	<Category>Экскурсии</Category>
+	<Price>от 1000 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Лежачий образ жизни</Header>
+	<Description>Почему так сложно начать вести здоровый образ жизни: 5 самых популярных оправданий</Description>
+	<Image>../../../Assets/live.png</Image>
+	<Date>16.03.2023</Date>
+	<Category>Образ жизни</Category>
+	<Price>от 200 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Лежачий образ жизни</Header>
+	<Description>Почему так сложно начать вести здоровый образ жизни: 5 самых популярных оправданий</Description>
+	<Image>../../../Assets/live.png</Image>
+	<Date>16.03.2023</Date>
+	<Category>Образ жизни</Category>
+	<Price>от 200 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Лежачий образ жизни</Header>
+	<Description>Почему так сложно начать вести здоровый образ жизни: 5 самых популярных оправданий</Description>
+	<Image>../../../Assets/live.png</Image>
+	<Date>16.03.2023</Date>
+	<Category>Образ жизни</Category>
+	<Price>от 200 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Лежачий образ жизни</Header>
+	<Description>Почему так сложно начать вести здоровый образ жизни: 5 самых популярных оправданий</Description>
+	<Image>../../../Assets/live.png</Image>
+	<Date>16.03.2023</Date>
+	<Category>Образ жизни</Category>
+	<Price>от 200 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Концерт Heroinwater в подземке </Header>
+	<Description>Презентация нового альбома No Commercial Lurics</Description>
+	<Image>../../../Assets/heroinwater.png</Image>
+	<Date>24.03.2023</Date>
+	<Category>Вечеринки</Category>
+	<Price>от 740 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Концерт Heroinwater в подземке </Header>
+	<Description>Презентация нового альбома No Commercial Lurics</Description>
+	<Image>../../../Assets/heroinwater.png</Image>
+	<Date>24.03.2023</Date>
+	<Category>Вечеринки</Category>
+	<Price>от 740 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Концерт Heroinwater в подземке </Header>
+	<Description>Презентация нового альбома No Commercial Lurics</Description>
+	<Image>../../../Assets/heroinwater.png</Image>
+	<Date>24.03.2023</Date>
+	<Category>Вечеринки</Category>
+	<Price>от 740 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Концерт Heroinwater в подземке </Header>
+	<Description>Презентация нового альбома No Commercial Lurics</Description>
+	<Image>../../../Assets/heroinwater.png</Image>
+	<Date>24.03.2023</Date>
+	<Category>Вечеринки</Category>
+	<Price>от 740 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Шоу мыльных пузырей</Header>
+	<Description>Шоу мыльных пузерей в Новосибирске</Description>
+	<Image>../../../Assets/puzir.png</Image>
+	<Date>24.03.2023</Date>
+	<Category>Шоу</Category>
+	<Price> 500 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Шоу мыльных пузырей</Header>
+	<Description>Шоу мыльных пузерей в Новосибирске</Description>
+	<Image>../../../Assets/puzir.png</Image>
+	<Date>24.03.2023</Date>
+	<Category>Шоу</Category>
+	<Price> 500 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Шоу мыльных пузырей</Header>
+	<Description>Шоу мыльных пузерей в Новосибирске</Description>
+	<Image>../../../Assets/puzir.png</Image>
+	<Date>24.03.2023</Date>
+	<Category>Шоу</Category>
+	<Price> 500 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Шоу мыльных пузырей</Header>
+	<Description>Шоу мыльных пузерей в Новосибирске</Description>
+	<Image>../../../Assets/puzir.png</Image>
+	<Date>24.03.2023</Date>
+	<Category>Шоу</Category>
+	<Price> 500 руб.</Price>
+</CityEvent>
+<CityEvent>
+	<Header>Онлайн Курс по С#</Header>
+	<Description>C# — современный объектно-ориентированный и типобезопасный язык программирования. Язык разработки приложений для платформы Microsoft .NET Framework. Применяется в создании сайтов, приложений и игр</Description>
+	<Image>../../../Assets/csharp.png</Image>
+	<Date>11.03.2023</Date>
+	<Category>Онлайн</Category>
+	<Price> Бесплатно </Price>
+</CityEvent>
+<CityEvent>
+	<Header>Онлайн Курс по С#</Header>
+	<Description>C# — современный объектно-ориентированный и типобезопасный язык программирования. Язык разработки приложений для платформы Microsoft .NET Framework. Применяется в создании сайтов, приложений и игр</Description>
+	<Image>../../../Assets/csharp.png</Image>
+	<Date>11.03.2023</Date>
+	<Category>Онлайн</Category>
+	<Price> Бесплатно </Price>
+</CityEvent>
+<CityEvent>
+	<Header>Онлайн Курс по С#</Header>
+	<Description>C# — современный объектно-ориентированный и типобезопасный язык программирования. Язык разработки приложений для платформы Microsoft .NET Framework. Применяется в создании сайтов, приложений и игр</Description>
+	<Image>../../../Assets/csharp.png</Image>
+	<Date>11.03.2023</Date>
+	<Category>Онлайн</Category>
+	<Price> Бесплатно </Price>
+</CityEvent>
+<CityEvent>
+	<Header>Онлайн Курс по С#</Header>
+	<Description>C# — современный объектно-ориентированный и типобезопасный язык программирования. Язык разработки приложений для платформы Microsoft .NET Framework. Применяется в создании сайтов, приложений и игр</Description>
+	<Image>../../../Assets/csharp.png</Image>
+	<Date>11.03.2023</Date>
+	<Category>Онлайн</Category>
+	<Price> Бесплатно </Price>
+</CityEvent>
+</ArrayOfCityEvent>

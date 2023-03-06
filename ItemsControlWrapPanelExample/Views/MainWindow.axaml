@@ -1,0 +1,281 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:controls="clr-namespace:Avalonia.Controls;assembly=Avalonia.Controls"
+        xmlns:vm="using:ItemsControlWrapPanelExample.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:ItemsControlWrapPanelExample.Models"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+		Width="1150" Height="800"
+        x:Class="ItemsControlWrapPanelExample.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="ItemsControlWrapPanelExample">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+	<Window.Resources>
+		<vm:BitmapAssetValueConverter x:Key="variableImage"/>
+	</Window.Resources>
+	
+	<Window.Styles>
+	</Window.Styles>
+
+
+	<TabControl>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="*,*">
+					<Image Grid.Column="0" Width="25" Height="25" Source="/Assets/children.png"></Image>
+					<TextBlock Grid.Column="1" VerticalAlignment="Center" FontSize="15" Text=" Для детей"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ItemsControl Items="{Binding ChildrenEvents}">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate DataType="{x:Type local:CityEvent}">
+						<Grid RowDefinitions="250, 200">
+							<Image Grid.Row="0" Height="250" Width="250" Source="{Binding Image, Converter={StaticResource variableImage}}"/>
+							<StackPanel Grid.Row="1">
+								<TextBlock TextAlignment="Center" FontWeight="Bold" FontSize="16" Text="{Binding Header}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Date}"/>
+								<TextBlock TextWrapping="Wrap" Text="{Binding Description}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Price}"/>
+							</StackPanel>
+						</Grid>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+				<ItemsControl.ItemsPanel>
+					<ItemsPanelTemplate>
+						<WrapPanel ScrollViewer.VerticalScrollBarVisibility="Visible" ItemHeight="350" ItemWidth="550"/>
+					</ItemsPanelTemplate>
+				</ItemsControl.ItemsPanel>
+			</ItemsControl>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="*,*">
+					<Image Grid.Column="0" Width="25" Height="25" Source="/Assets/sport.png"></Image>
+					<TextBlock Grid.Column="1" VerticalAlignment="Center" FontSize="15" Text=" Спорт"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ItemsControl Items="{Binding SportEvents}">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate DataType="{x:Type local:CityEvent}">
+						<Grid RowDefinitions="250, 200">
+							<Image Grid.Row="0" Height="250" Width="250" Source="{Binding Image, Converter={StaticResource variableImage}}"/>
+							<StackPanel Grid.Row="1">
+								<TextBlock TextAlignment="Center" FontWeight="Bold" FontSize="16" Text="{Binding Header}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Date}"/>
+								<TextBlock TextWrapping="Wrap" Text="{Binding Description}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Price}"/>
+							</StackPanel>
+						</Grid>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+				<ItemsControl.ItemsPanel>
+					<ItemsPanelTemplate>
+						<WrapPanel ScrollViewer.VerticalScrollBarVisibility="Visible" ItemHeight="350" ItemWidth="560"/>
+					</ItemsPanelTemplate>
+				</ItemsControl.ItemsPanel>
+			</ItemsControl>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="*,*">
+					<Image Grid.Column="0" Width="25" Height="25" Source="/Assets/culture.png"></Image>
+					<TextBlock Grid.Column="1" VerticalAlignment="Center" FontSize="15" Text=" Культура"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ItemsControl Items="{Binding CultureEvents}">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate DataType="{x:Type local:CityEvent}">
+						<Grid RowDefinitions="250, 200">
+							<Image Grid.Row="0" Height="250" Width="250" Source="{Binding Image, Converter={StaticResource variableImage}}"/>
+							<StackPanel Grid.Row="1">
+								<TextBlock TextAlignment="Center" FontWeight="Bold" FontSize="16" Text="{Binding Header}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Date}"/>
+								<TextBlock TextWrapping="Wrap" Text="{Binding Description}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Price}"/>
+							</StackPanel>
+						</Grid>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+				<ItemsControl.ItemsPanel>
+					<ItemsPanelTemplate>
+						<WrapPanel ScrollViewer.VerticalScrollBarVisibility="Visible" ItemHeight="350" ItemWidth="560"/>
+					</ItemsPanelTemplate>
+				</ItemsControl.ItemsPanel>
+			</ItemsControl>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="*,*">
+					<Image Grid.Column="0" Width="25" Height="25" Source="/Assets/trip.png"></Image>
+					<TextBlock Grid.Column="1" VerticalAlignment="Center" FontSize="15" Text=" Экскурсия"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ItemsControl Items="{Binding ExcursionEvents}">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate DataType="{x:Type local:CityEvent}">
+						<Grid RowDefinitions="250, 200">
+							<Image Grid.Row="0" Height="250" Width="250" Source="{Binding Image, Converter={StaticResource variableImage}}"/>
+							<StackPanel Grid.Row="1">
+								<TextBlock TextAlignment="Center" FontWeight="Bold" FontSize="16" Text="{Binding Header}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Date}"/>
+								<TextBlock TextWrapping="Wrap" Text="{Binding Description}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Price}"/>
+							</StackPanel>
+						</Grid>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+				<ItemsControl.ItemsPanel>
+					<ItemsPanelTemplate>
+						<WrapPanel ScrollViewer.VerticalScrollBarVisibility="Visible" ItemHeight="350" ItemWidth="560"/>
+					</ItemsPanelTemplate>
+				</ItemsControl.ItemsPanel>
+			</ItemsControl>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="*,*">
+					<Image Grid.Column="0" Width="25" Height="25" Source="/Assets/lifestyles.png"></Image>
+					<TextBlock Grid.Column="1" VerticalAlignment="Center" FontSize="15" Text=" Образ жизни"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ItemsControl Items="{Binding LifestyleEvents}">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate DataType="{x:Type local:CityEvent}">
+						<Grid RowDefinitions="250, 200">
+							<Image Grid.Row="0" Height="250" Width="250" Source="{Binding Image, Converter={StaticResource variableImage}}"/>
+							<StackPanel Grid.Row="1">
+								<TextBlock TextAlignment="Center" FontWeight="Bold" FontSize="16" Text="{Binding Header}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Date}"/>
+								<TextBlock TextWrapping="Wrap" Text="{Binding Description}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Price}"/>
+							</StackPanel>
+						</Grid>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+				<ItemsControl.ItemsPanel>
+					<ItemsPanelTemplate>
+						<WrapPanel ScrollViewer.VerticalScrollBarVisibility="Visible" ItemHeight="350" ItemWidth="560"/>
+					</ItemsPanelTemplate>
+				</ItemsControl.ItemsPanel>
+			</ItemsControl>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="*,*">
+					<Image Grid.Column="0" Width="25" Height="25" Source="/Assets/party.png"></Image>
+					<TextBlock Grid.Column="1" VerticalAlignment="Center" FontSize="15" Text=" Вечеринки" ></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ItemsControl Items="{Binding PartyEvents}">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate DataType="{x:Type local:CityEvent}" >
+						<Grid RowDefinitions="250, 200">
+							<Image Grid.Row="0" Height="250" Width="250" Source="{Binding Image, Converter={StaticResource variableImage}}"/>
+							<StackPanel Grid.Row="1">
+								<TextBlock TextAlignment="Center" FontWeight="Bold" FontSize="16" Text="{Binding Header}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Date}"/>
+								<TextBlock TextWrapping="Wrap" Text="{Binding Description}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Price}"/>
+							</StackPanel>
+						</Grid>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+				<ItemsControl.ItemsPanel>
+					<ItemsPanelTemplate>
+						<WrapPanel ScrollViewer.VerticalScrollBarVisibility="Visible" ItemHeight="350" ItemWidth="560"/>
+					</ItemsPanelTemplate>
+				</ItemsControl.ItemsPanel>
+			</ItemsControl>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="*,*">
+					<Image Grid.Column="0" Width="25" Height="25" Source="/Assets/education.png"></Image>
+					<TextBlock Grid.Column="1" VerticalAlignment="Center" FontSize="15" Text=" Образование"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ItemsControl Items="{Binding EducationEvents}">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate DataType="{x:Type local:CityEvent}">
+						<Grid RowDefinitions="250, 200">
+							<Image Grid.Row="0" Height="250" Width="250" Source="{Binding Image, Converter={StaticResource variableImage}}"/>
+							<StackPanel Grid.Row="1">
+								<TextBlock TextAlignment="Center" FontWeight="Bold" FontSize="16" Text="{Binding Header}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Date}"/>
+								<TextBlock TextWrapping="Wrap" Text="{Binding Description}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Price}"/>
+							</StackPanel>
+						</Grid>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+				<ItemsControl.ItemsPanel>
+					<ItemsPanelTemplate>
+						<WrapPanel ScrollViewer.VerticalScrollBarVisibility="Visible" ItemHeight="350" ItemWidth="560"/>
+					</ItemsPanelTemplate>
+				</ItemsControl.ItemsPanel>
+			</ItemsControl>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="*,*">
+					<Image Width="25" Height="25" Source="/Assets/online.png"></Image>
+					<TextBlock Grid.Column="1" VerticalAlignment="Center" FontSize="15" Text=" Онлайн"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ItemsControl Items="{Binding OnlineEvents}">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate DataType="{x:Type local:CityEvent}">
+						<Grid RowDefinitions="250, 200">
+							<Image Grid.Row="0" Height="250" Width="250" Source="{Binding Image, Converter={StaticResource variableImage}}"/>
+							<StackPanel Grid.Row="1">
+								<TextBlock TextAlignment="Center" FontWeight="Bold" FontSize="16" Text="{Binding Header}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Date}"/>
+								<TextBlock TextWrapping="Wrap" Text="{Binding Description}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Price}"/>
+							</StackPanel>
+						</Grid>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+				<ItemsControl.ItemsPanel>
+					<ItemsPanelTemplate>
+						<WrapPanel ScrollViewer.VerticalScrollBarVisibility="Visible" ItemHeight="350" ItemWidth="560"/>
+					</ItemsPanelTemplate>
+				</ItemsControl.ItemsPanel>
+			</ItemsControl>
+		</TabItem>
+		<TabItem>
+			<TabItem.Header>
+				<Grid ColumnDefinitions="*,*">
+					<Image Width="25" Height="25" Source="/Assets/show.png"></Image>
+					<TextBlock Grid.Column="1" VerticalAlignment="Center" FontSize="15" Text=" Шоу"></TextBlock>
+				</Grid>
+			</TabItem.Header>
+			<ItemsControl Items="{Binding ShowEvents}">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate DataType="{x:Type local:CityEvent}">
+						<Grid RowDefinitions="250, 200">
+							<Image Grid.Row="0" Height="250" Width="250" Source="{Binding Image, Converter={StaticResource variableImage}}"/>
+							<StackPanel Grid.Row="1">
+								<TextBlock TextAlignment="Center" FontWeight="Bold" FontSize="16" Text="{Binding Header}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Date}"/>
+								<TextBlock TextWrapping="Wrap" Text="{Binding Description}"/>
+								<TextBlock TextAlignment="Center" FontWeight="Bold" Text="{Binding Price}"/>
+							</StackPanel>
+						</Grid>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+				<ItemsControl.ItemsPanel>
+					<ItemsPanelTemplate>
+						<WrapPanel ScrollViewer.VerticalScrollBarVisibility="Visible" ItemHeight="350" ItemWidth="560"/>
+					</ItemsPanelTemplate>
+				</ItemsControl.ItemsPanel>
+			</ItemsControl>
+		</TabItem>
+	</TabControl>
+	
+</Window>
